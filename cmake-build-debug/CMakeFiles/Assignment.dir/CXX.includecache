@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/NPEats.cpp
+NPEats.h
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/NPEats.h
+string
+-
+iostream
+-
+list
+-
+
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/NPEats.h
+string
+-
+iostream
+-
+list
+-
+
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/main.cpp
+iostream
+-
+NPEats.h
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/NPEats.h
+list
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/list
+
