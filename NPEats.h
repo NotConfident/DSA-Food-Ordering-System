@@ -6,7 +6,7 @@
 #include <list>
 
 using namespace std;
-
+//
 class NPEats
 {
 private:
