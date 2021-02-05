@@ -78,10 +78,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/NPEats.cpp">
+		<Unit filename="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/List.cpp">
 			<Option target="Assignment"/>
 		</Unit>
-		<Unit filename="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/NPEats.h">
+		<Unit filename="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/List.h">
 			<Option target="Assignment"/>
 		</Unit>
 		<Unit filename="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/main.cpp">

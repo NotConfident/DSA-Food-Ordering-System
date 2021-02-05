@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/NPEats.cpp" "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/cmake-build-debug/CMakeFiles/Assignment.dir/NPEats.cpp.o"
+  "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/List.cpp" "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/cmake-build-debug/CMakeFiles/Assignment.dir/List.cpp.o"
   "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/main.cpp" "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/cmake-build-debug/CMakeFiles/Assignment.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

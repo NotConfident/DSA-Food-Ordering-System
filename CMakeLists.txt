@@ -3,4 +3,4 @@ project(Assignment)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Assignment main.cpp NPEats.cpp)
+add_executable(Assignment main.cpp List.cpp)

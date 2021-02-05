@@ -90,29 +90,29 @@ CMakeFiles/Assignment.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/main.cpp" -o CMakeFiles/Assignment.dir/main.cpp.s
 
-CMakeFiles/Assignment.dir/NPEats.cpp.o: CMakeFiles/Assignment.dir/flags.make
-CMakeFiles/Assignment.dir/NPEats.cpp.o: ../NPEats.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Assignment.dir/NPEats.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment.dir/NPEats.cpp.o -c "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/NPEats.cpp"
+CMakeFiles/Assignment.dir/List.cpp.o: CMakeFiles/Assignment.dir/flags.make
+CMakeFiles/Assignment.dir/List.cpp.o: ../List.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Assignment.dir/List.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Assignment.dir/List.cpp.o -c "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/List.cpp"
 
-CMakeFiles/Assignment.dir/NPEats.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment.dir/NPEats.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/NPEats.cpp" > CMakeFiles/Assignment.dir/NPEats.cpp.i
+CMakeFiles/Assignment.dir/List.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Assignment.dir/List.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/List.cpp" > CMakeFiles/Assignment.dir/List.cpp.i
 
-CMakeFiles/Assignment.dir/NPEats.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment.dir/NPEats.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/NPEats.cpp" -o CMakeFiles/Assignment.dir/NPEats.cpp.s
+CMakeFiles/Assignment.dir/List.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Assignment.dir/List.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/List.cpp" -o CMakeFiles/Assignment.dir/List.cpp.s
 
 # Object files for target Assignment
 Assignment_OBJECTS = \
 "CMakeFiles/Assignment.dir/main.cpp.o" \
-"CMakeFiles/Assignment.dir/NPEats.cpp.o"
+"CMakeFiles/Assignment.dir/List.cpp.o"
 
 # External object files for target Assignment
 Assignment_EXTERNAL_OBJECTS =
 
 Assignment: CMakeFiles/Assignment.dir/main.cpp.o
-Assignment: CMakeFiles/Assignment.dir/NPEats.cpp.o
+Assignment: CMakeFiles/Assignment.dir/List.cpp.o
 Assignment: CMakeFiles/Assignment.dir/build.make
 Assignment: CMakeFiles/Assignment.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Assignment"

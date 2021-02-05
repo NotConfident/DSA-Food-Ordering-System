@@ -1,10 +1,12 @@
 #include <iostream>
-#include "NPEats.h"
+#include "List.h"
 #include "list"
 
 using namespace std;
 
-NPEats eats;
+// Everything is done by Student - TEE YONG TENG S10198102
+
+List eats;
 int input;
 int counter = 1;
 
@@ -42,6 +44,13 @@ int main()
         if (input == 0)
         {
             break;
+        }
+
+        else
+        {
+            printMainMenu();
+            cout << "Please Enter a Valid Option." << endl;
+            cout << endl;
         }
     }
 }
@@ -109,7 +118,6 @@ bool inputOne()
         {
             inputOne();
         }
-
     }
 
     if(input == 2)
@@ -171,6 +179,24 @@ bool inputOne()
         inputOne();
     }
 
+    if (input == 4)
+    {
+        eats.displayMenu();
+
+        cout << endl;
+        cout << "Item to Delete: ";
+        cin >> input;
+        cout << endl;
+
+        eats.deleteMenu(input);
+
+        cout << endl;
+        cout << "Menu item has been deleted" << endl;
+        cout << endl;
+
+        inputOne();
+    }
+
     if (input == 0)
     {
         printMainMenu();
@@ -188,6 +214,13 @@ bool inputOne()
         {
             inputTwo();
         }
+    }
+
+    else
+    {
+        inputOne();
+        cout << "Please Enter a Valid Option." << endl;
+        cout << endl;
     }
 }
 
@@ -289,8 +322,10 @@ bool inputTwo()
 
     if (input == 4)
     {
-            eats.displayFoodOrders();
+        eats.displayFoodOrders();
 
+        if (eats.returnOrderSize() != 0)
+        {
             cout << endl;
             cout << "Select order to delete: ";
             cin >> input;
@@ -304,6 +339,13 @@ bool inputTwo()
             cout << endl;
             eats.displayFoodOrders();
             inputTwo();
+        }
+
+        else
+        {
+            inputTwo();
+        }
+
     }
 
     if (input == 0)
@@ -323,5 +365,12 @@ bool inputTwo()
         {
             inputTwo();
         }
+    }
+
+    else
+    {
+        inputTwo();
+        cout << "Please Enter a Valid Option." << endl;
+        cout << endl;
     }
 }

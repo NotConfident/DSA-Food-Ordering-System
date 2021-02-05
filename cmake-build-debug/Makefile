@@ -143,32 +143,32 @@ Assignment/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment.dir/build.make CMakeFiles/Assignment.dir/build
 .PHONY : Assignment/fast
 
-NPEats.o: NPEats.cpp.o
+List.o: List.cpp.o
 
-.PHONY : NPEats.o
+.PHONY : List.o
 
 # target to build an object file
-NPEats.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment.dir/build.make CMakeFiles/Assignment.dir/NPEats.cpp.o
-.PHONY : NPEats.cpp.o
+List.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment.dir/build.make CMakeFiles/Assignment.dir/List.cpp.o
+.PHONY : List.cpp.o
 
-NPEats.i: NPEats.cpp.i
+List.i: List.cpp.i
 
-.PHONY : NPEats.i
+.PHONY : List.i
 
 # target to preprocess a source file
-NPEats.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment.dir/build.make CMakeFiles/Assignment.dir/NPEats.cpp.i
-.PHONY : NPEats.cpp.i
+List.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment.dir/build.make CMakeFiles/Assignment.dir/List.cpp.i
+.PHONY : List.cpp.i
 
-NPEats.s: NPEats.cpp.s
+List.s: List.cpp.s
 
-.PHONY : NPEats.s
+.PHONY : List.s
 
 # target to generate assembly for a file
-NPEats.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment.dir/build.make CMakeFiles/Assignment.dir/NPEats.cpp.s
-.PHONY : NPEats.cpp.s
+List.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment.dir/build.make CMakeFiles/Assignment.dir/List.cpp.s
+.PHONY : List.cpp.s
 
 main.o: main.cpp.o
 
@@ -206,9 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Assignment"
-	@echo "... NPEats.o"
-	@echo "... NPEats.i"
-	@echo "... NPEats.s"
+	@echo "... List.o"
+	@echo "... List.i"
+	@echo "... List.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

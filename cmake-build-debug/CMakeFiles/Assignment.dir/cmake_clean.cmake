@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "Assignment"
   "Assignment.pdb"
-  "CMakeFiles/Assignment.dir/NPEats.cpp.o"
+  "CMakeFiles/Assignment.dir/List.cpp.o"
   "CMakeFiles/Assignment.dir/main.cpp.o"
 )
 

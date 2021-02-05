@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/NPEats.cpp
-NPEats.h
-/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/NPEats.h
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/List.cpp
+List.h
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/List.h
 string
 -
 iostream
@@ -16,19 +16,11 @@ iostream
 list
 -
 
-/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/NPEats.h
+/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/List.h
 string
 -
 iostream
 -
 list
 -
-
-/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/main.cpp
-iostream
--
-NPEats.h
-/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/NPEats.h
-list
-/Users/yongtenggg/Desktop/Poly/Year 2/Year 2 Sem 2/DSA/DSA-Queue-Project/list
 
