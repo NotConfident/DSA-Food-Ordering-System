@@ -36,8 +36,10 @@ private:
     };
 
     Menu *frontMenu;	// Points to the previous item in Menu
+    Menu *backMenu;
 
     Node *frontNode;	// Points to the first item in Order
+    Node *backNode;	// Points to the first item in Order
 
 public:
     int menuSize;
@@ -64,6 +66,8 @@ public:
     bool createFoodOrder(int, int, string, string, float); // Adds an Order to the back of the List
     bool modifyFoodOrder(int, int, string, string, float); // Modifies and Update an Order in the List
     bool deleteFoodOrder(int); // Remove and Delete an Order in the List
+
+    void reverseOrder();
 };
 
 

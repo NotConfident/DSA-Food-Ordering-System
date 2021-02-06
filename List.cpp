@@ -72,6 +72,7 @@ bool List :: createMenuItem(int itemID, string cuisineType, string foodName, flo
     if(frontMenu == NULL || frontMenu->itemID == NULL)
     {
         frontMenu = newNode;
+        backMenu = newNode;
         menuSize+=1;
     }
 
@@ -84,6 +85,7 @@ bool List :: createMenuItem(int itemID, string cuisineType, string foodName, flo
         }
         newNode->prevMenu = current;
         current->next = newNode;
+        backMenu = newNode;
         menuSize+=1;
     }
 //    frontMenu = newNode;
@@ -248,6 +250,7 @@ bool List :: createFoodOrder(int queueID, int quantity, string cuisineType, stri
     if(frontNode == NULL || frontNode->queueID == NULL)
     {
         frontNode = newNode;
+        backNode = newNode;
         orderSize++;
     }
 
@@ -260,6 +263,7 @@ bool List :: createFoodOrder(int queueID, int quantity, string cuisineType, stri
         }
         newNode->prevNode = current;
         current->next = newNode;
+        backNode = newNode;
         orderSize++;
     }
 }
@@ -278,6 +282,23 @@ void List :: displayFoodOrders()
         {
             cout << current->queueID << ": " << current->quantity << "x " << current->foodName  << ", SGD$" << current->price << endl;
             current = current->next;
+        }
+    }
+}
+
+void List :: reverseOrder()
+{
+    Node *current = backNode;
+    if(current == NULL)
+    {
+        cout << "Order list is empty!" << endl;
+    }
+    else
+    {
+        while (current != NULL)
+        {
+            cout << current->queueID << ": " << current->quantity << "x " << current->foodName  << ", SGD$" << current->price << endl;
+            current = current->prevNode;
         }
     }
 }

@@ -83,10 +83,11 @@ void printFoodSelection()
 {
     cout << endl;
     cout << "********************************************" << endl;
-    cout << "***           1. Create Order            ***" << endl;
-    cout << "***           2. View Orders             ***" << endl;
+    cout << "***           1. View Order              ***" << endl;
+    cout << "***           2. Create Orders           ***" << endl;
     cout << "***           3. Modify Orders           ***" << endl;
     cout << "***           4. Delete Orders           ***" << endl;
+    cout << "***           5. View Latest Order First ***" << endl;
     cout << "***           0. Exit                    ***" << endl;
     cout << "********************************************" << endl;
     cout << endl;
@@ -102,7 +103,7 @@ bool inputOne()
     cin >> input;
     cout << endl;
 
-    if (input == 1)
+    if(input == 1)
     {
         eats.displayMenu();
         cout << endl;
@@ -141,7 +142,7 @@ bool inputOne()
         inputOne();
     }
 
-    if (input == 3)
+    if(input == 3)
     {
         string cuisineType;
         string ItemName;
@@ -179,7 +180,7 @@ bool inputOne()
         inputOne();
     }
 
-    if (input == 4)
+    if(input == 4)
     {
         eats.displayMenu();
 
@@ -197,7 +198,7 @@ bool inputOne()
         inputOne();
     }
 
-    if (input == 0)
+    if(input == 0)
     {
         printMainMenu();
 
@@ -205,7 +206,7 @@ bool inputOne()
         cout << "Enter your option: ";
         cin >> input;
 
-        if (input == 1)
+        if(input == 1)
         {
             inputOne();
         }
@@ -239,6 +240,13 @@ bool inputTwo()
 
     if(input == 1)
     {
+        cout << endl;
+        eats.displayFoodOrders();
+        inputTwo();
+    }
+
+    if(input == 2)
+    {
         eats.displayMenu();
         cout << endl;
         cout << "0) Back to options";
@@ -248,7 +256,7 @@ bool inputTwo()
         cout << "Choose the food desired: ";
         cin >> foodSelection;
 
-        if (foodSelection == 0)
+        if(foodSelection == 0)
         {
             inputTwo();
         }
@@ -268,14 +276,9 @@ bool inputTwo()
         inputTwo();
     }
 
-    if (input == 2)
-    {
-        cout << endl;
-        eats.displayFoodOrders();
-        inputTwo();
-    }
 
-    if (input == 3)
+
+    if(input == 3)
     {
         int newItem;
         int newQuantity;
@@ -320,11 +323,11 @@ bool inputTwo()
         inputTwo();
     }
 
-    if (input == 4)
+    if(input == 4)
     {
         eats.displayFoodOrders();
 
-        if (eats.returnOrderSize() != 0)
+        if(eats.returnOrderSize() != 0)
         {
             cout << endl;
             cout << "Select order to delete: ";
@@ -348,7 +351,14 @@ bool inputTwo()
 
     }
 
-    if (input == 0)
+    if(input == 5)
+    {
+        eats.reverseOrder();
+        cout << endl;
+        inputTwo();
+    }
+
+    if(input == 0)
     {
         printMainMenu();
 
@@ -356,12 +366,12 @@ bool inputTwo()
         cout << "Enter your option: ";
         cin >> input;
 
-        if (input == 1)
+        if(input == 1)
         {
             inputOne();
         }
 
-        if (input == 2)
+        if(input == 2)
         {
             inputTwo();
         }
