@@ -49,12 +49,12 @@ void List :: retrieveSelectedMenu(int itemID)
     }
     else
     {
-        while (current != NULL && current->itemID != itemID)
-        {
-            current = current->next;
-        }
-        cout << current->itemName << "," << " SGD$" << current->price << endl;
-//        cout << frontMenu[itemID - 1].itemName << endl;
+//        while (current != NULL && current->itemID != itemID)
+//        {
+//            current = current->next;
+//        }
+//        cout << current->itemName << "," << " SGD$" << current->price << endl;
+        cout << current[itemID - 1].itemName << "," << " SGD$" << current[itemID - 1].price << endl;
     }
 }
 
@@ -292,11 +292,12 @@ void List :: retrieveFoodOrder(int queueID)
     }
     else
     {
-        while (current != NULL && current->queueID != queueID)
-        {
-            current = current->next;
-        }
-        cout << current->quantity << "x " << current->foodName  << ", SGD$" << current->price << endl;
+//        while (current != NULL && current->queueID != queueID)
+//        {
+//            current = current->next;
+//        }
+//        cout << current->quantity << "x " << current->foodName  << ", SGD$" << current->price << endl;
+        cout << current[queueID - 1].quantity << "x " <<  current[queueID - 1].foodName  << ", SGD$" <<  current[queueID - 1].price << endl;
     }
 }
 
